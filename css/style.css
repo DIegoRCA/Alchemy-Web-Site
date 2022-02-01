@@ -65,3 +65,27 @@ header nav ul li a :hover{
     background-color: rgba(16, 78, 139, 50);
     border-radius: 50px;
 }
+
+.container{
+    background-color: gray;
+    display: inline-block;
+    height: 600px;
+
+}
+.text{
+    float:left;
+    max-width: 50%;
+    text-align: center;
+    line-height: 100%;
+    padding-left: 20px;
+    color: white;
+}
+.text > p{
+line-height: normal;
+}
+.img1 >img{
+    float:right;
+    max-width: 40%;
+    line-height: 600px;
+    padding: 20px;
+}
